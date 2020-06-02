@@ -1,0 +1,17 @@
+*.ldb
+*.sdf
+*.ilk
+*.pdb
+*.pch
+*.tlog
+*.obj
+*.suo
+*.opensdf
+*.o
+Thumbs.db
+.DS_Store
+
+build
+debug
+release
+ipch

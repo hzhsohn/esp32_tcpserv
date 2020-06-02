@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="components">
+      <UniqueIdentifier>{d645605a-15e8-48f6-844a-a6afc2ac81db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\hal">
+      <UniqueIdentifier>{2099a6b7-77e0-4855-ab0e-a0cf280cd24d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\hal\include">
+      <UniqueIdentifier>{4b79e1bf-d252-4a4c-9813-5423ab06d151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\uart1">
+      <UniqueIdentifier>{c7cc82c0-28ba-40f0-884b-23a2d4900b01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\http">
+      <UniqueIdentifier>{37c9fadc-8701-436d-820b-29ca065daa32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\spi_data">
+      <UniqueIdentifier>{d47cf43a-999d-4cd3-9053-c88045466544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\spi_data\include">
+      <UniqueIdentifier>{af5dc6be-21de-49c0-adad-bc2e93379173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\espressif">
+      <UniqueIdentifier>{3fac61ac-0497-48d6-bdb4-9f7462ce9daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\espressif\include">
+      <UniqueIdentifier>{80c6b6c8-fdf5-44a2-957c-cec5788e44cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\h_gpio">
+      <UniqueIdentifier>{582af618-55b0-4c6b-af91-22a83610f6a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\uart2">
+      <UniqueIdentifier>{180131f4-fea0-47e5-8270-b3e7d702ad09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\websocket">
+      <UniqueIdentifier>{9c2c4260-00e4-4d64-8e93-f30ce7476650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\uart_debug">
+      <UniqueIdentifier>{4fe57d7e-e23a-4d69-a109-54d0d526ae23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\timer">
+      <UniqueIdentifier>{23aea71f-6ba0-4a77-8ac1-d942d01eda71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\espmqtt">
+      <UniqueIdentifier>{1c9aa0c3-97b1-4f60-80e4-49dec716f494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\zhlist">
+      <UniqueIdentifier>{ed1acfc7-54cc-4000-ac99-be518fd8e292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\tcpserv">
+      <UniqueIdentifier>{691485e9-f6a1-44ec-92ca-c432af421f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\tcpserv2">
+      <UniqueIdentifier>{4537fdea-0078-4212-8da2-4c2f6be74b65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\udp_multicast">
+      <UniqueIdentifier>{b744d29a-dad1-4605-8a9e-3c3d38cfe67f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\hxkong_yun">
+      <UniqueIdentifier>{f2a99f03-81ed-46a4-9ec9-f3858f327e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\hxnet">
+      <UniqueIdentifier>{e606e1ee-4b26-4239-a444-7884d58dbf38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\components\espressif\wifi.c">
+      <Filter>components\espressif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\espressif\eth.c">
+      <Filter>components\espressif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\hal\hal_i2c.c">
+      <Filter>components\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\hal\hal_i2s.c">
+      <Filter>components\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\hal\hal_eth.c">
+      <Filter>components\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\http\url_parser.c">
+      <Filter>components\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\http\http.c">
+      <Filter>components\http</Filter>
+    </ClCompile>
+    <ClCompile Include="trans_data.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\spi_data\spi_data.c">
+      <Filter>components\spi_data</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\h_gpio\h_gpio.c">
+      <Filter>components\h_gpio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\uart2\uart2.c">
+      <Filter>components\uart2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\uart1\uart1.c">
+      <Filter>components\uart1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\websocket\sha1.c">
+      <Filter>components\websocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\websocket\websocket.c">
+      <Filter>components\websocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\websocket\websocket_serv.c">
+      <Filter>components\websocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\websocket\wsock_md5.c">
+      <Filter>components\websocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\uart_debug\uart0.c">
+      <Filter>components\uart_debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\http\zhHttp.c">
+      <Filter>components\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\http\zhsock.c">
+      <Filter>components\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\timer\timer_group.c">
+      <Filter>components\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_proc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="trans_data_a.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="smartconfig.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\espmqtt\lib\mqtt_msg.c">
+      <Filter>components\espmqtt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\espmqtt\lib\mqtt_outbox.c">
+      <Filter>components\espmqtt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\espmqtt\lib\platform_esp32_idf.c">
+      <Filter>components\espmqtt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\espmqtt\lib\transport.c">
+      <Filter>components\espmqtt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\espmqtt\lib\transport_ssl.c">
+      <Filter>components\espmqtt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\espmqtt\lib\transport_tcp.c">
+      <Filter>components\espmqtt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\espmqtt\mqtt_client.c">
+      <Filter>components\espmqtt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\http\http_serv.c">
+      <Filter>components\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\http\webserver.c">
+      <Filter>components\http</Filter>
+    </ClCompile>
+    <ClCompile Include="sbufhex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\zhlist\zhlist.c">
+      <Filter>components\zhlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\zhlist\zhlist_exp.c">
+      <Filter>components\zhlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\tcpserv\tcpserv.c">
+      <Filter>components\tcpserv</Filter>
+    </ClCompile>
+    <ClCompile Include="mqtt_net_proc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\tcpserv2\tcpserv2.c">
+      <Filter>components\tcpserv2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\hxkong_yun\hxkong_tcp.c">
+      <Filter>components\hxkong_yun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\hxkong_yun\hxkong_yun.c">
+      <Filter>components\hxkong_yun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\hxkong_yun\mini-data.c">
+      <Filter>components\hxkong_yun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\udp_multicast\udp_multicast.c">
+      <Filter>components\udp_multicast</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\components\hxnet\hxnet-protocol.c">
+      <Filter>components\hxnet</Filter>
+    </ClCompile>
+    <ClCompile Include="modbus.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\components\espressif\include\eth.h">
+      <Filter>components\espressif\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\espressif\include\wifi.h">
+      <Filter>components\espressif\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\hal\include\hal_eth.h">
+      <Filter>components\hal\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\hal\include\hal_i2c.h">
+      <Filter>components\hal\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\hal\include\hal_i2s.h">
+      <Filter>components\hal\include</Filter>
+    </ClInclude>
+    <ClInclude Include="trans_data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\spi_data\include\spi_data.h">
+      <Filter>components\spi_data\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\h_gpio\include\h_gpio.h">
+      <Filter>components\h_gpio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\uart2\include\uart2.h">
+      <Filter>components\uart2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\uart1\include\uart1.h">
+      <Filter>components\uart1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\websocket\include\sha1.h">
+      <Filter>components\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\websocket\include\websocket.h">
+      <Filter>components\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\websocket\include\websocket_serv.h">
+      <Filter>components\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\websocket\include\c_base64.h">
+      <Filter>components\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\websocket\include\wsock_md5.h">
+      <Filter>components\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\uart_debug\include\uart0.h">
+      <Filter>components\uart_debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\http\include\http.h">
+      <Filter>components\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\http\include\url_parser.h">
+      <Filter>components\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\http\include\zhHttp.h">
+      <Filter>components\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\http\include\zhsock.h">
+      <Filter>components\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\timer\include\timer_group.h">
+      <Filter>components\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_proc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="trans_data_a.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="smartconfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\espmqtt\include\mqtt_client.h">
+      <Filter>components\espmqtt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\espmqtt\include\mqtt_config.h">
+      <Filter>components\espmqtt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\espmqtt\lib\include\mqtt_msg.h">
+      <Filter>components\espmqtt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\espmqtt\lib\include\mqtt_outbox.h">
+      <Filter>components\espmqtt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\espmqtt\lib\include\platform.h">
+      <Filter>components\espmqtt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\espmqtt\lib\include\platform_esp32_idf.h">
+      <Filter>components\espmqtt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\espmqtt\lib\include\transport.h">
+      <Filter>components\espmqtt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\espmqtt\lib\include\transport_ssl.h">
+      <Filter>components\espmqtt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\espmqtt\lib\include\transport_tcp.h">
+      <Filter>components\espmqtt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\http\include\http_serv.h">
+      <Filter>components\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\http\include\webserver.h">
+      <Filter>components\http</Filter>
+    </ClInclude>
+    <ClInclude Include="sbufhex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\zhlist\include\zhlist.h">
+      <Filter>components\zhlist</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\zhlist\include\zhlist_exp.h">
+      <Filter>components\zhlist</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\tcpserv\include\tcpserv.h">
+      <Filter>components\tcpserv</Filter>
+    </ClInclude>
+    <ClInclude Include="mqtt_net_proc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\tcpserv2\include\tcpserv2.h">
+      <Filter>components\tcpserv2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\hxkong_yun\include\hxkong_tcp.h">
+      <Filter>components\hxkong_yun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\hxkong_yun\include\hxkong_yun.h">
+      <Filter>components\hxkong_yun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\hxkong_yun\include\mini-data.h">
+      <Filter>components\hxkong_yun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\udp_multicast\include\udp_multicast.h">
+      <Filter>components\udp_multicast</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\hxnet\include\hx-crc.h">
+      <Filter>components\hxnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\hxnet\include\hxnet-protocol.h">
+      <Filter>components\hxnet</Filter>
+    </ClInclude>
+    <ClInclude Include="modbus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
